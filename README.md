@@ -80,6 +80,4 @@
 
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Joaomarcellodev&bg_color=000000&color=15e5a6&line=07e9a5&point=0a855c&area=true&hide_border=true)](https://github.com/Joaomarcellodev/github-readme-activity-graph)
 
-<img src="https://raw.githubusercontent.com/Joaomarcellodev/Joaomarcellodev/output/snake.svg" alt="Snake animation" />
-
 ###

@@ -1,0 +1,35 @@
+name: 🐍 Generate Snake Animation
+
+on:
+  schedule:
+    # Regenera a cada 12 horas
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Gera os SVGs da cobrinha
+        uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+            dist/snake.gif?color_snake=#15e5a6&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+
+      - name: Publica na branch output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

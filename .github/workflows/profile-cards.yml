@@ -16,6 +16,9 @@ jobs:
       contents: write
 
     steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
       - name: Gera os cards de estatísticas
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:

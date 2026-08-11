@@ -80,7 +80,7 @@ public class JoaoMarcello {
 
 <br /><br />
 
-<img height="165" src="https://streak-stats.demolab.com?user=Joaomarcellodev&theme=chartreuse-dark&hide_border=true&background=0d1117&ring=15e5a6&fire=07e9a5&currStreakLabel=15e5a6&locale=pt_BR" alt="streak" />
+<img height="165" src="https://streak-stats.vercel.app/?user=Joaomarcellodev&theme=chartreuse-dark&hide_border=true&background=0d1117&ring=15e5a6&fire=07e9a5&currStreakLabel=15e5a6&locale=pt_BR" alt="streak" />
 
 </div>
 

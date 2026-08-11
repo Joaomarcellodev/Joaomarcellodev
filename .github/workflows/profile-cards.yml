@@ -1,0 +1,29 @@
+name: 📊 Generate Profile Cards
+
+on:
+  schedule:
+    # Regenera todo dia às 03:00 UTC (00:00 em Teresina)
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Gera os cards de estatísticas
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
+          # Teresina/PI = UTC-3, usado no card de horários produtivos
+          UTC_OFFSET: "-3"
+          THEME: "github_dark"
+          ANIMATION: "sequence"

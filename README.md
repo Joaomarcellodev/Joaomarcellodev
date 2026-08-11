@@ -66,10 +66,19 @@ public class JoaoMarcello {
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Joaomarcellodev&show_icons=true&include_all_commits=true&count_private=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=15e5a6&icon_color=07e9a5&text_color=c9d1d9&locale=pt-br" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=Joaomarcellodev&layout=compact&langs_count=8&card_width=320&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=15e5a6&text_color=c9d1d9&locale=pt-br" alt="linguagens" />
+<img width="72%" src="https://raw.githubusercontent.com/Joaomarcellodev/Joaomarcellodev/main/profile-summary-card-output/github_dark/0-profile-details.svg" alt="detalhes do perfil" />
 
 <br />
+
+<img width="36%" src="https://raw.githubusercontent.com/Joaomarcellodev/Joaomarcellodev/main/profile-summary-card-output/github_dark/3-stats.svg" alt="estatísticas" />
+<img width="36%" src="https://raw.githubusercontent.com/Joaomarcellodev/Joaomarcellodev/main/profile-summary-card-output/github_dark/4-productive-time.svg" alt="horários produtivos" />
+
+<br />
+
+<img width="36%" src="https://raw.githubusercontent.com/Joaomarcellodev/Joaomarcellodev/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="repositórios por linguagem" />
+<img width="36%" src="https://raw.githubusercontent.com/Joaomarcellodev/Joaomarcellodev/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="linguagens mais commitadas" />
+
+<br /><br />
 
 <img height="165" src="https://streak-stats.demolab.com?user=Joaomarcellodev&theme=chartreuse-dark&hide_border=true&background=0d1117&ring=15e5a6&fire=07e9a5&currStreakLabel=15e5a6&locale=pt_BR" alt="streak" />
 
@@ -81,7 +90,7 @@ public class JoaoMarcello {
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Joaomarcellodev&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7" alt="troféus" />
+<img src="https://github-trophies.vercel.app/?username=Joaomarcellodev&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7" alt="troféus" />
 
 </div>
 
